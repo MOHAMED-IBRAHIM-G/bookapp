@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Book Application</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Learn About Books</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich dad poor dad</h2>
+            <h5>robert</h5>
+            <p class="bookpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur dolores at, quo placeat odio quam animi sapiente rerum minima eaque amet dolor corporis aliquid deleniti, eveniet corrupti atque ex!</p>
+            <button class="bookdelete" onclick="buttondel(event)">Delete</button>
+        </div>
+    </div>
+    <div class="add">
+        <button class="btnadd" onclick="addact()">+</button>
+    </div>
+    <div class="newbg">
+        <div class="insidenewbg"><h1>Enter Details Of Book</h1>
+            <form action="">
+                <h3>Enter Book name</h3>
+                <input type="text" class="bkname">
+                <h3>Author</h3>
+                <input type="text" class="atname">
+                <h3 >Description</h3>
+                <textarea name="" class="area"></textarea>
+            </form>        
+            <button class="l add" onclick="addnew()">Add</button>
+            <button class="l can" onclick="cancel()">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

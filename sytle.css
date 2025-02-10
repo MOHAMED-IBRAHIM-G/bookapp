@@ -1,0 +1,80 @@
+.navbar{
+    background-color: orange;
+    box-shadow: 2px 5px 8px 2px red;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+}
+.book-container{
+
+    
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border-bottom: 2px solid;
+    background-color:rgb(99, 191, 227);
+    padding: 5px;
+    border-radius: 20px;
+    position: relative;
+    
+    
+    
+}
+
+ .bookdelete{ 
+    position: absolute;
+    bottom: 3%;
+    right:10px;
+    border-radius: 20px; 
+      
+}
+.btnadd{
+    position: fixed;
+    right: 10px;
+    top: 400px;
+    font-size: 40px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: red;
+    opacity: 0.8;
+}
+.newbg{
+    
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;                        
+    opacity: 0.9;
+    display: none;
+}
+.insidenewbg{
+    background-color:palevioletred;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width:350px ;
+    height: 350px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.l{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    margin-left: 5px;
+    
+}.insidenewbg > h1{
+text-align: start;
+}
